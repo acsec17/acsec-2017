@@ -5,7 +5,9 @@ html,body{
 #particles-js{
 	height: 100%;
 	position: relative;
-	background: black;
+	background: #000 center center no-repeat;
+	background-position: 50% 35%;
+	background-size: 180px;
 }
 
 .logo{
@@ -23,8 +25,31 @@ html,body{
 	text-align: center;
 }
 
-.heading h3{
-	font-family: 48px;
-	color: white;
-	font-family: 'Black Ops One'
+.heading{
+	position: absolute;
+    top: 42%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-family: "Black Ops One";
+    color: #afafaf;
+    font-size: 72px;
+    box-shadow: 0px 0px 2px white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-shadow: 3px 3px 1px #310186;
+
+}
+
+.sub-heading{
+	position: absolute;
+    top: 56%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-family: "Black Ops One";
+    color: #afafaf;
+    font-size: 32px;
+    text-shadow: 3px 3px 1px #310186;
+
 }
