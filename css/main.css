@@ -27,7 +27,7 @@ html,body{
 
 .heading{
 	position: absolute;
-    top: 42%;
+    top: 36%;
     text-align: center;
     left: 0;
     right: 0;
@@ -42,8 +42,8 @@ html,body{
 }
 
 .sub-heading{
-	position: fixed;
-    top: 64%;
+	position: absolute;
+    top: 67%;
     text-align: center;
     left: 0;
     right: 0;
@@ -52,4 +52,8 @@ html,body{
     font-size: 32px;
     text-shadow: 3px 3px 1px #310186;
 
+}
+
+section{
+  min-height: 300px;
 }
