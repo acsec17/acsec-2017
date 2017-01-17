@@ -1,0 +1,35 @@
+<h3>Delegation Name</h3>
+{{form["DelegationName"]}}
+
+<h3>Team</h3>
+{{form["Team"]}}
+
+<h3>Staff Advisor</h3>
+{{form["HeadStaff"]}}
+
+<h3>Staff Advisor No.</h3>
+{{form["HeadStaffNo"]}}
+
+<h3>Staff Advisor Email.</h3>
+{{form["HeadStaffE"]}}
+
+<h3>International</h3>
+{{form["International"]}}
+
+<h3>Accommodation</h3>
+{{form["Accommodation"]}}
+
+{% for i in range(1,9) %}
+
+<h3> Delegate {{i}}</h3>
+
+Delegate {{i}} Name : {{form["Del%d" % i]}}
+
+Delegate {{i}} Phone : {{form["Del%dNo" % i]}}
+
+{% if form["Del%dE" % i] %}
+Delegate {{i}} Email : {{form["Del%dE" % i]}}
+{% endif %}
+
+
+{%endfor%}
